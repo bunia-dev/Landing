@@ -1,0 +1,26 @@
+{
+  "indexable": true,
+  "themeColor": "#2B2F77",
+  "ogImage": "/og-image.png",
+  "ogImageWidth": 1200,
+  "ogImageHeight": 630,
+  "twitterCard": "summary_large_image",
+  "keywords": [
+    "تطوير مواقع في الأردن",
+    "تصميم مواقع عمّان",
+    "شركة برمجة في الأردن",
+    "أتمتة المدفوعات",
+    "منصات رقمية",
+    "متجر إلكتروني الأردن",
+    "بونيا",
+    "استضافة مواقع الأردن",
+    "وكالة رقمية عمّان",
+    "برمجة تطبيقات الأردن",
+    "صفحات هبوط الأردن",
+    "تحسين محركات البحث الأردن"
+  ],
+  "organization": {
+    "sameAs": [],
+    "areaServed": ["JO", "PS", "SA", "AE", "QA", "OM", "KW", "BH", "EG", "IQ", "Middle East", "GCC"]
+  }
+}
