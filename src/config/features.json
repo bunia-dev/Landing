@@ -1,0 +1,10 @@
+{
+  "showCountdown": false,
+  "showProgress": false,
+  "showServices": true,
+  "showNotifyForm": true,
+  "showSocials": true,
+  "showBlueprintBackground": true,
+  "enableParallax": true,
+  "enableAnimations": true
+}
