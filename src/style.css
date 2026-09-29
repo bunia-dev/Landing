@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-indigo text-bone/80;
+    font-family: 'Readex Pro', 'Manrope Variable', system-ui, sans-serif;
+    line-height: 1.75;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope Variable', 'Readex Pro', system-ui, sans-serif;
+    color: #F7F6F2;
+    line-height: 1.3;
+    letter-spacing: -0.02em !important;
+  }
+  [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6 {
+    font-family: 'Readex Pro', 'Manrope Variable', system-ui, sans-serif;
+    letter-spacing: 0 !important;
+  }
+  ::selection {
+    @apply bg-amber text-ink;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-bone text-ink font-semibold px-8 py-4 transition-all duration-300 ease-smooth;
+    min-height: 48px;
+    border-radius: 0.5rem; 
+  }
+  .btn-primary:hover { @apply bg-bone/90; }
+  .btn-primary:focus { outline: none; box-shadow: 0 0 0 2px #2B2F77, 0 0 0 4px #F5A524; }
+  .btn-primary:disabled { @apply opacity-70 cursor-not-allowed; }
+
+  .input-field {
+    @apply bg-ink/40 border border-bone/20 px-4 py-4 text-bone placeholder-bone/40 transition-all duration-300 ease-smooth;
+    min-height: 48px;
+    border-radius: 0.5rem;
+  }
+  .input-field:focus { outline: none; box-shadow: 0 0 0 2px #F5A524; border-color: transparent; }
+
+  .door-card {
+    @apply border border-bone/10 p-10 transition-all duration-500 ease-smooth bg-ink/40;
+    border-radius: 0.5rem;
+  }
+  .door-card:hover { @apply border-bone/30 -translate-y-1; }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:right-4 focus:z-50 focus:bg-bone focus:text-ink focus:px-4 focus:py-2 focus:rounded;
+  }
+}
+
+@layer utilities {
+  .blueprint-grid {
+    background-image: 
+      linear-gradient(to right, rgba(247, 246, 242, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(247, 246, 242, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
