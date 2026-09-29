@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "Bunia",
+    "nameAr": "بُنْيَة",
+    "legalName": "Bunia",
+    "foundingYear": 2026
+  },
+  "domain": "bunia.dev",
+  "url": "https://bunia.dev",
+  "location": {
+    "city": "Amman",
+    "cityAr": "عمّان",
+    "country": "Jordan",
+    "countryAr": "الأردن",
+    "countryCode": "JO"
+  },
+  "launchDate": null,
+  "timezone": "Asia/Amman",
+  "contact": {
+    "email": "contact@bunia.dev",
+    "phone": "",
+    "whatsapp": ""
+  },
+  "socials": {
+    "linkedin": "https://linkedin.com/company/bunia-dev",
+    "github": "https://github.com/bunia-dev",
+    "instagram": "https://instagram.com/bunia.dev",
+    "facebook": "https://facebook.com/bunia.dev"
+  },
+  "notifyForm": {
+    "provider": "none",
+    "endpoint": "",
+    "emailFieldName": "email",
+    "successRedirect": null
+  },
+  "analytics": {
+    "provider": "none",
+    "plausibleDomain": "",
+    "ga4Id": ""
+  },
+  "digits": "western"
+}
