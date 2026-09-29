@@ -1,0 +1,28 @@
+{
+  "colors": {
+    "indigo": "#2B2F77",
+    "indigoLight": "#40449A",
+    "indigoDeep": "#22265F",
+    "ink": "#0E1020",
+    "bone": "#F7F6F2",
+    "amber": "#F5A524",
+    "slate": "#5B6078",
+    "emerald": "#1FA971",
+    "watermark": "#E4E5F0"
+  },
+  "radius": {
+    "sm": "0.25rem",
+    "md": "0.5rem",
+    "lg": "1rem",
+    "xl": "1.5rem"
+  },
+  "spacing": {},
+  "durations": {
+    "300": "300ms",
+    "500": "500ms",
+    "900": "900ms"
+  },
+  "easing": {
+    "smooth": "cubic-bezier(0.22, 1, 0.36, 1)"
+  }
+}
